@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 2.2rem;
+  background-color: rgb(119, 132, 210);
+  background-image: url(istockphoto-1287021364-612x612.jpeg);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: head;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes head {
+  0% {color: white;}
+  25% {color: antiquewhite;}
+  50% {color: azure;}
+  75% {color: bisque;}
+  100% {color: blanchedalmond;}
+
+  
+}
+
+.nav{
+  background-image: url(vector-abstract-background-book-and-bookstore-header-and-banner-RYKEK9.jpeg);
+  background-size: contain;
+}
+h2{
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: head;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+.list {
+  padding: 0.2rem;
+  color: rgb(251, 193, 86);
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: space-around;  
+}
+
+.speaking-box {
+  display: grid;
+  grid-template-areas:
+    "h-11 h-22 h-33"
+    "o1 o1-1 o1-2"
+    "o2 o2-1 o2-2"
+    "o3 o3-1 o3-2"
+    "o4 o4-1 o4-2"
+    "o5 o5-1 o5-2"
+    "o6 o6-1 o6-2";
+  gap: 0.5rem;
+}
+
+.h-11 {
+  grid-area: h-11;
+}
+
+.h-22 {
+  grid-area: h-22;
+}
+
+.h-33 {
+  grid-area: h-33;
+}
+
+.o1 {
+  grid-area: o1;
+}
+.o2 {
+  grid-area: o2;
+}
+.o3 {
+  grid-area: o3;
+}
+.o4 {
+  grid-area: o4;
+}
+.o5 {
+  grid-area: o5;
+}
+.o6 {
+  grid-area: o6;
+}
+
+
+.o1-1 {
+  grid-area: o1-1;
+}
+.o1-2 {
+  grid-area: o1-2;
+}
+.o2-1 {
+  grid-area: o2-1;
+}
+.o2-2 {
+  grid-area: o2-2;
+}
+.o3-1 {
+  grid-area: o3-1;
+}
+.o3-2 {
+  grid-area: o3-2;
+}
+.o4-1 {
+  grid-area: o4-1;
+}
+.o4-2 {
+  grid-area: o4-2;
+}
+.o5-1 {
+  grid-area: o5-1;
+}
+.o5-2 {
+  grid-area: o5-2;
+}
+.o6-1 {
+  grid-area: o6-1;
+}
+.o6-2 {
+  grid-area: o6-2;
+}
+
+
+.writing-box {
+  display: grid;
+  grid-template-areas:
+    "h-1 h-2 h-3"
+    "one one-1 one-2"
+    "two two-1 two-2"
+    "three three-1 three-2"
+    "four four-1 four-2"
+    "five five-1 five-2"
+    "six six-1 six-2"
+    "seven seven-1 seven-2";
+  gap: 0.5rem;
+}
+
+.h-1 {
+  grid-area: h-1;
+}
+
+.h-2 {
+  grid-area: h-2;
+}
+
+.h-3 {
+  grid-area: h-3;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+
+.one-1 {
+  grid-area: one-1;
+}
+.one-2 {
+  grid-area: one-2;
+}
+.two-1 {
+  grid-area: two-1;
+}
+.two-2 {
+  grid-area: two-2;
+}
+.three-1 {
+  grid-area: three-1;
+}
+.three-2 {
+  grid-area: three-2;
+}
+.four-1 {
+  grid-area: four-1;
+}
+.four-2 {
+  grid-area: four-2;
+}
+.five-1 {
+  grid-area: five-1;
+}
+.five-2 {
+  grid-area: five-2;
+}
+.six-1 {
+  grid-area: six-1;
+}
+.six-2 {
+  grid-area: six-2;
+}
+.seven-1 {
+  grid-area: seven-1;
+}
+.seven-2 {
+  grid-area: seven-2;
+}
+
+.reading-box {
+  display: grid;
+  grid-template-areas:
+    "H-1 H-2 H-3"
+    "onee onee-1 onee-2"
+    "twoo twoo-1 twoo-2"
+    "threee threee-1 threee-2"
+    "fourr fourr-1 fourr-2"
+    "fivee fivee-1 fivee-2"
+    "sixx sixx-1 sixx-2"
+    "sevenn sevenn-1 sevenn-2"
+    "eightt eightt-1 eightt-2"
+    "ninee ninee-1 ninee-2"
+    "tenn tenn-1 tenn-2";
+  gap: 0.5rem;
+}
+
+.H-1 {
+  grid-area: H-1;
+}
+
+.H-2 {
+  grid-area: H-2;
+}
+
+.H-3 {
+  grid-area: H-3;
+}
+
+.onee {
+  grid-area: onee;
+}
+.twoo {
+  grid-area: twoo;
+}
+.threee {
+  grid-area: threee;
+}
+.fourr {
+  grid-area: fourr;
+}
+.fivee {
+  grid-area: fivee;
+}
+.sixx {
+  grid-area: sixx;
+}
+.sevenn {
+  grid-area: sevenn;
+}
+.eightt {
+  grid-area: eightt;
+}
+.ninee {
+  grid-area: ninee;
+}
+.tenn {
+  grid-area: tenn;
+}
+
+.onee-1 {
+  grid-area: onee-1;
+}
+.onee-2 {
+  grid-area: onee-2;
+}
+.twoo-1 {
+  grid-area: twoo-1;
+}
+.twoo-2 {
+  grid-area: twoo-2;
+}
+.threee-1 {
+  grid-area: threee-1;
+}
+.threee-2 {
+  grid-area: threee-2;
+}
+.fourr-1 {
+  grid-area: fourr-1;
+}
+.fourr-2 {
+  grid-area: fourr-2;
+}
+.fivee-1 {
+  grid-area: fivee-1;
+}
+.fivee-2 {
+  grid-area: fivee-2;
+}
+.sixx-1 {
+  grid-area: sixx-1;
+}
+.sixx-2 {
+  grid-area: sixx-2;
+}
+.sevenn-1 {
+  grid-area: sevenn-1;
+}
+.sevenn-2 {
+  grid-area: sevenn-2;
+}
+.eightt-1 {
+  grid-area: eightt-1;
+}
+.eightt-2 {
+  grid-area: eightt-2;
+}
+.ninee-1 {
+  grid-area: ninee-1;
+}
+.ninee-2 {
+  grid-area: ninee-2;
+}
+.tenn-1 {
+  grid-area: tenn-1;
+}
+.tenn-2 {
+  grid-area: tenn-2;
+}
+
+.listening-box {
+  display: grid;
+  grid-template-areas:
+    "H--1 H--2 H--3"
+    "oneee oneee-1 oneee-2"
+    "twooo twooo-1 twooo-2"
+    "threeee threeee-1 threeee-2"
+    "fourrr fourrr-1 fourrr-2"
+    "fiveee fiveee-1 fiveee-2"
+    "sixxx sixxx-1 sixxx-2"
+    "sevennn sevennn-1 sevennn-2"
+    "eighttt eighttt-1 eighttt-2"
+    "nineee nineee-1 nineee-2"
+    "tennn tennn-1 tennn-2"
+    "elevennn elevennn-1 elevennn-2"
+    "twelveee twelveee-1 twelveee-2";
+  gap: 0.5rem;
+}
+
+.H--1 {
+  grid-area: H--1;
+}
+
+.H--2 {
+  grid-area: H--2;
+}
+
+.H--3 {
+  grid-area: H--3;
+}
+
+.oneee {
+  grid-area: oneee;
+}
+.twooo {
+  grid-area: twooo;
+}
+.threeee {
+  grid-area: threeee;
+}
+.fourrr {
+  grid-area: fourrr;
+}
+.fiveee {
+  grid-area: fiveee;
+}
+.sixxx {
+  grid-area: sixxx;
+}
+.sevennn {
+  grid-area: sevennn;
+}
+.eighttt {
+  grid-area: eighttt;
+}
+.nineee {
+  grid-area: nineee;
+}
+.tennn {
+  grid-area: tennn;
+}
+.elevennn {
+  grid-area: elevennn;
+}
+.twevleee {
+  grid-area: twelveee;
+}
+
+.oneee-1 {
+  grid-area: oneee-1;
+}
+.oneee-2 {
+  grid-area: oneee-2;
+}
+.twooo-1 {
+  grid-area: twooo-1;
+}
+.twooo-2 {
+  grid-area: twooo-2;
+}
+.threeee-1 {
+  grid-area: threeee-1;
+}
+.threeee-2 {
+  grid-area: threeee-2;
+}
+.fourrr-1 {
+  grid-area: fourrr-1;
+}
+.fourrr-2 {
+  grid-area: fourrr-2;
+}
+.fiveee-1 {
+  grid-area: fiveee-1;
+}
+.fiveee-2 {
+  grid-area: fiveee-2;
+}
+.sixxx-1 {
+  grid-area: sixxx-1;
+}
+.sixxx-2 {
+  grid-area: sixxx-2;
+}
+.sevennn-1 {
+  grid-area: sevennn-1;
+}
+.sevennn-2 {
+  grid-area: sevennn-2;
+}
+.eighttt-1 {
+  grid-area: eighttt-1;
+}
+.eighttt-2 {
+  grid-area: eighttt-2;
+}
+.nineee-1 {
+  grid-area: nineee-1;
+}
+.nineee-2 {
+  grid-area: nineee-2;
+}
+.tennn-1 {
+  grid-area: tennn-1;
+}
+.tennn-2 {
+  grid-area: tennn-2;
+}
+.elevennn-1 {
+  grid-area: elevennn-1;
+}
+.elevennn-2 {
+  grid-area: elevennn-2;
+}
+.twelveee-1 {
+  grid-area: twelveee-1;
+}
+.twelveee-2 {
+  grid-area: twelveee-2;
+}
